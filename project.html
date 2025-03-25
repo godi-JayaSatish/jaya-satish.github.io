@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e3e3e3, #c0c0c0);
+    background-image: url(bg.png);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo-circle {
+    width: 30px;
+    height: 30px;
+    background: purple;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.contact-btn {
+    background: purple;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    background-color:aqua;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-text span {
+    color: black;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+}
+
+.say-hello {
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.heroo{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}.zero{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Highlight Box */
+.highlight-box {
+    position: absolute;
+    left: -50px;
+    top: 100px;
+    background: linear-gradient(135deg, #ff00ff, #ff66ff);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 255, 0.5);
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome To My Webpage</h1>
+    </header>
+
+    <nav>
+        <div class="logo">
+            <span class=""></span> <strong>About Me</strong>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#" class="contact-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm <br><span>Jaya Satish</span></h2>
+            <p>I'm studying in Sasi Institute Of Technolohy & Engineering</p>
+            <button class="heroo"><a href="https://www.instagram.com/accounts/login/?hl=en">instagram</a></button>
+            <button class="zero"><a href="https://www.whatsapp.com/">whatsapp</a></button>
+
+            <button class="say-hello">Say Hello!</button> 
+        </div>
+        <div class="hero-image">
+            <img src="satish.png" alt="Profile Picture">
+        </div>
+        <div class="highlight-box"></div>
+    </section>
+
+</body>
+</html>
